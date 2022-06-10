@@ -6,28 +6,11 @@ import java.util.Scanner;
 import gestordisciplina.GestorDisciplina;
 
 public class Menu {
-    // Menu com as opções para selecionar e selecionar as opções
-
     public Menu() throws IOException, InterruptedException, FileNotFoundException {
 
         GestorDisciplina gestao = new GestorDisciplina();
         gestao.gerarDiretorios();
-
-        /*
-         * ArrayList<File> diretorios = new ArrayList<File>();
-         * diretorios.add(new File("DIRETORIO_GERAL/disciplinas/"));
-         * diretorios.add(new File("DIRETORIO_GERAL/resultado/"));
-         * diretorios.add(new File("DIRETORIO_GERAL/gabarito/"));
-         * diretorios.add(new File("DIRETORIO_GERAL/resultado/resultado_nome/"));
-         * diretorios.add(new File("DIRETORIO_GERAL/resultado/resultado_nota/"));
-         * 
-         * for(File diretorio : diretorios){
-         * if(!diretorio.exists()){
-         * diretorio.mkdirs();
-         * }
-         * }
-         */
-
+        
         while (true) {
             Scanner input = new Scanner(System.in);
             System.out.println("Seleciona alguma das opções a seguir para dar continuidade : ");
