@@ -73,7 +73,7 @@ public class Menu {
                     gestao.loading();
                     System.out.println("Adeus , obrigado por usar o programa :)");
                     Thread.sleep(1500);
-                    System.exit(0);
+                    System.exit(0); //Encerra o programa
                     break;
                 default:
                     System.out.println("OPÇÃO INVALIDA , DIGITE UMA OPÇÃO VALIDA DENTRE DAS OPÇÕES DE 1 ATÉ 7");
