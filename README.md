@@ -7,9 +7,7 @@ objetiva de um aluno. Essa prova contém 10 questões, todas do tipo V ou F. O f
 cada linha contém o nome do aluno que respondeu aquelas opções separadas das
 respostas por um “tab”. A Figura abaixo mostra um exemplo desse arquivo:
 
-Crie um
-
-programa que faça os seguintes itens:
+Crie um programa que faça os seguintes itens:
 1. Permita ao usuário criar o arquivo com as respostas de todos os alunos de uma
 disciplina. O nome do arquivo será o nome da disciplina. O usuário é livre para inserir
 quantos alunos ele queira. O usuário pode criar mais de uma disciplina.
