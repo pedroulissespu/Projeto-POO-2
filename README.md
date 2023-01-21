@@ -6,7 +6,6 @@ Considere um arquivo texto onde cada linha representa as respostas de uma prova
 objetiva de um aluno. Essa prova contém 10 questões, todas do tipo V ou F. O final de
 cada linha contém o nome do aluno que respondeu aquelas opções separadas das
 respostas por um “tab”. A Figura abaixo mostra um exemplo desse arquivo:
-
 Crie um programa que faça os seguintes itens:
 1. Permita ao usuário criar o arquivo com as respostas de todos os alunos de uma
 disciplina. O nome do arquivo será o nome da disciplina. O usuário é livre para inserir
@@ -21,9 +20,7 @@ decrescente de notas (quantidade de acertos) e mostrando ao final a média da tu
 Caso o aluno tenha marcado todas as questões com V ou F, o aluno receberá 0. Permita
 ao usuário visualizar esses dados na tela.
 Fique livre para organizar seus arquivos em diretórios da melhor maneira possível.
-
 ## Exemplo : 
-
 1. VFFFVVVFVF BELTRANO DA SILVA
 2. FFVFFFVVVF FULANO DOS ANZÓIS PEREIRA
 3. VVFFFVFFVV CICRANO JOSÉ
